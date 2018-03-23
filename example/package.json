@@ -1,0 +1,23 @@
+{
+  "name": "examples",
+  "version": "1.0.0",
+  "description": "some examples",
+  "main": "example.js",
+  "scripts": {
+    "test": "jest --config jest.config.js"
+  },
+  "devDependencies": {
+    "jest": "^22.4.3",
+    "babel-core": "^6.24.1",
+    "babel-jest": "^22.0.3",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "fake-server-interceptor": "^0.1.3"
+  },
+  "author": "",
+  "license": "ISC"
+}

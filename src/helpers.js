@@ -1,3 +1,4 @@
+/* eslint-disable guard-for-in */
 import { urlMapper } from './urlsMapper';
 
 // creates a key from a method and a url
@@ -11,18 +12,10 @@ export const createNewTestValue = (options) => {
   urlMapper[testKey] = { response, code, timeout };
 };
 
-//cleares the url mapper
+// cleares the url mapper
 export const clearTestValues = () => {
   for (const key in urlMapper) {
     delete urlMapper[key];
   }
 };
-
-// forces a property to become writable
-export const forceWritable = (object, key, value) => Object.defineProperties(object, {
-  [key]: {
-    value,
-    writable: true,
-  },
-});
 

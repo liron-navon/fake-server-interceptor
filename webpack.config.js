@@ -1,65 +1,54 @@
-const path = require('path');
+/* global __dirname, require, module */
+
 const webpack = require('webpack');
 
-const commonConfig = {
+const UglifyJsPlugin = webpack.optimize.UglifyJsPlugin;
+const path = require('path');
+
+const env = 'build';// require('yargs').argv.env; // use --env with webpack 2
+const pkg = require('./package.json');
+
+const libraryName = pkg.name;
+
+const plugins = [];
+let outputFile;
+
+if (env === 'build') {
+  plugins.push(new UglifyJsPlugin({ minimize: true }));
+  outputFile = `${libraryName}.min.js`;
+} else {
+  outputFile = `${libraryName}.js`;
+}
+
+const config = {
+  entry: `${__dirname}/src/index.js`,
   devtool: 'source-map',
-  context: path.resolve(__dirname, 'app'),
-  entry: {
-    'fake-server': path.resolve(__dirname, 'src/index.js'),
-    'fake-server.min': path.resolve(__dirname, 'src/index.js'),
-  },
   output: {
-    path: path.resolve(__dirname, 'dist'),
-    publicPath: 'dist',
-    filename: '[name].js',
+    path: `${__dirname}/lib`,
+    filename: outputFile,
+    library: libraryName,
+    libraryTarget: 'umd',
+    umdNamedDefine: true,
   },
-  plugins: [
-    new webpack.optimize.UglifyJsPlugin({
-      include: /\.min\.js$/,
-      minimize: true,
-    }),
-  ],
   module: {
-    rules: [{
-      test: /\.js$/,
-      exclude: /node_modules/,
-      use: [{
+    rules: [
+      {
+        test: /(\.jsx|\.js)$/,
         loader: 'babel-loader',
-        options: {
-          cacheDirectory: true,
-          presets: [[
-            'env', { modules: false },
-          ]],
-        },
-      }],
-    }],
-  },
-  resolve: {
-    modules: [
-      path.resolve(__dirname, 'node_modules'),
-      path.resolve(__dirname, 'src'),
+        exclude: /(node_modules|bower_components)/,
+      },
+      {
+        test: /(\.jsx|\.js)$/,
+        loader: 'eslint-loader',
+        exclude: /node_modules/,
+      },
     ],
   },
+  resolve: {
+    modules: [path.resolve('./node_modules'), path.resolve('./src')],
+    extensions: ['.json', '.js'],
+  },
+  plugins,
 };
 
-const developmentConfig = () => {
-  const config = {
-
-    devServer: {
-      port: process.env.PORT,
-      host: process.env.HOST,
-      contentBase: path.resolve(__dirname, 'webroot'),
-      watchOptions: {
-        aggregateTimeout: 300,
-        poll: 1000,
-      },
-    },
-  };
-
-  return Object.assign({}, commonConfig, config);
-};
-
-const productionConfig = () => commonConfig;
-
-
-module.exports = env => productionConfig();
+module.exports = config;

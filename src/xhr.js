@@ -1,5 +1,5 @@
 // overriding XMLHttpRequest
-import { createKey, forceWritable } from './helpers';
+import { createKey } from './helpers';
 import { urlMapper } from './urlsMapper';
 
 class xhrCopy {
@@ -20,16 +20,15 @@ class xhrCopy {
     }
   }
 
-  open(method, url, b) {
+  open(method, url) {
     const testUrl = createKey(url, method);
     this.$$testData = urlMapper[testUrl];
 
     // return this.$$defineMyPropsWritable('readyState', window.XMLHttpRequest.OPENED);
   }
 
-  overrideMimeType() {
-    // just an interface
-  }
+// eslint-disable-next-line class-methods-use-this
+  overrideMimeType() { /* just an interface */ }
 
   send() {
     return setTimeout(() => {
@@ -77,7 +76,7 @@ class xhrCopy {
   }
 }
 
-xhrCopy.OPENED = 4
+xhrCopy.OPENED = 4;
 
 export const setupXhrFakeServer = () => {
   window.XMLHttpRequest = xhrCopy;

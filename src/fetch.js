@@ -1,9 +1,9 @@
-/* eslint-disable no-global-assign */
-import { createKey, } from './helpers';
-import { urlMapper, } from './urlsMapper';
+import { createKey } from './helpers';
+import { urlMapper } from './urlsMapper';
 
 if (!window.fetch) {
-  window.fetch = () => { console.error('fetch is not supported'); };
+// eslint-disable-next-line no-console
+  window.fetch = () => { console.error('Fetch is not supported'); };
 }
 
 // keep the original fetch to be used if we need it
@@ -17,7 +17,7 @@ const fakeFetch = (url, options = {}) => {
     url = url.url;
   }
 
-  const { method = 'GET', } = options;
+  const { method = 'GET' } = options;
   const testUrl = createKey(url, method);
   const testData = urlMapper[testUrl];
 
@@ -27,7 +27,7 @@ const fakeFetch = (url, options = {}) => {
   }
 
   // return test values
-  const { response, timeout, code, } = testData;
+  const { response, timeout, code } = testData;
   return new Promise((resolve) => {
     setTimeout(() => {
       resolve({

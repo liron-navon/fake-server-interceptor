@@ -14,6 +14,8 @@ const ApiService = {
 Then, we want to test our abstraction.
 This example uses jest as the assertion library and test runner
 ```javascript  
+import fakeServer from 'fake-server-interceptor';
+
 // initialize the test server, no need to call this more then once
 fakeServer.init();
   
@@ -40,7 +42,7 @@ test('ApiService work as expected', () => {
   ApiService.get('https://jsonplaceholder.typicode.com/posts')
     .then((response) => {
       const json = response.json()
-      console.log(json.hello) // world
+      expect(json.hello).toBe('world'); // success!
     })
 });
 ```

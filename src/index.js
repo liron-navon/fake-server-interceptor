@@ -21,3 +21,4 @@ fakeServer.clear = () => {
 };
 
 export default fakeServer;
+module.exports = fakeServer;

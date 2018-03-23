@@ -6,7 +6,7 @@ const commonConfig = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     publicPath: 'dist',
-    filename: 'bundle.js'
+    filename: 'fake-server.js',
   },
   module: {
     rules: [{
@@ -17,22 +17,21 @@ const commonConfig = {
         options: {
           cacheDirectory: true,
           presets: [[
-            'env', { modules: false }
-          ]]
-        }
-      }]
-    }]
+            'env', { modules: false },
+          ]],
+        },
+      }],
+    }],
   },
   resolve: {
     modules: [
       path.resolve(__dirname, 'node_modules'),
-      path.resolve(__dirname, 'src')
-    ]
-  }
+      path.resolve(__dirname, 'src'),
+    ],
+  },
 };
 
 const developmentConfig = () => {
-
   const config = {
     devtool: 'cheap-module-eval-source-map',
     devServer: {
@@ -41,26 +40,21 @@ const developmentConfig = () => {
       contentBase: path.resolve(__dirname, 'webroot'),
       watchOptions: {
         aggregateTimeout: 300,
-        poll: 1000
-      }
-    }
+        poll: 1000,
+      },
+    },
   };
 
   return Object.assign({}, commonConfig, config);
-
 };
 
 const productionConfig = () => commonConfig;
 
 
 module.exports = (env) => {
-
   if (env === 'production') {
-
     return productionConfig();
-
   }
 
   return developmentConfig();
-
 };

@@ -1,4 +1,4 @@
-# Fake-Server
+# Fake-Server-Interceptor
 
 A testing utility to test http calls, it will override fetch and XMLHttpRequest with specified test values for each call:
 

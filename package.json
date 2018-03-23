@@ -1,5 +1,5 @@
 {
-  "name": "fake-server",
+  "name": "fake-server-interceptor",
   "version": "0.1.0",
   "description": "A fake server for testing",
   "license": "MIT",

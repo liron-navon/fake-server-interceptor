@@ -47,4 +47,4 @@ The set function accept an object with those values, set can be called multiple 
 | method   	| GET           	| The call method (GET, POST, UPDATE, DELETE...), case insensetive.                                                                                                                      	|
 | timeout  	| 1             	| The timeout to wait for the response in milliseconds, for most tests 1 is fine just to fake an asynchronous nature, but for testing slow connectivity you can make this number higher. 	|
 | code     	| 200           	| The response code you wish to get back, it is also used to fake rejection in libraries like axios by setting it to 404 or 500.                                                         	|
-| response 	| {}            	| the actual response object the server should send, this doesn't have to be an object, any type will work.                                                                              	|
+| response 	| {}            	| The actual response object the server should send, this doesn't have to be an object, any type will work.                                                                              	|

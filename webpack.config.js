@@ -1,13 +1,24 @@
 const path = require('path');
+const webpack = require('webpack');
 
 const commonConfig = {
+  devtool: 'source-map',
   context: path.resolve(__dirname, 'app'),
-  entry: path.resolve(__dirname, 'src/index.js'),
+  entry: {
+    'fake-server': path.resolve(__dirname, 'src/index.js'),
+    'fake-server.min': path.resolve(__dirname, 'src/index.js'),
+  },
   output: {
     path: path.resolve(__dirname, 'dist'),
     publicPath: 'dist',
-    filename: 'fake-server.js',
+    filename: '[name].js',
   },
+  plugins: [
+    new webpack.optimize.UglifyJsPlugin({
+      include: /\.min\.js$/,
+      minimize: true,
+    }),
+  ],
   module: {
     rules: [{
       test: /\.js$/,
@@ -33,7 +44,7 @@ const commonConfig = {
 
 const developmentConfig = () => {
   const config = {
-    devtool: 'cheap-module-eval-source-map',
+
     devServer: {
       port: process.env.PORT,
       host: process.env.HOST,
@@ -51,10 +62,4 @@ const developmentConfig = () => {
 const productionConfig = () => commonConfig;
 
 
-module.exports = (env) => {
-  if (env === 'production') {
-    return productionConfig();
-  }
-
-  return developmentConfig();
-};
+module.exports = env => productionConfig();

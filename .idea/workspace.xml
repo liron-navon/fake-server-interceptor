@@ -2,31 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c818c51-6c8f-4f52-b6f3-2922ddeb0263" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.eslintrc.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/example/.babelrc" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/example/example.test.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/example/example/example.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/example/example/example.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/example/jest.config.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/example/package-lock.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/example/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/fake-server-interceptor.min.js" />
-      <change beforePath="$PROJECT_DIR$/.babelrc" afterPath="$PROJECT_DIR$/.babelrc" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/example/example-fetch.test.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/dist/fake-server.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/fake-server.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/fake-server.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/example.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/jest.config.js" afterPath="$PROJECT_DIR$/jest.config.js" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
-      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change beforePath="$PROJECT_DIR$/readme.md" afterPath="$PROJECT_DIR$/readme.md" />
-      <change beforePath="$PROJECT_DIR$/src/fetch.js" afterPath="$PROJECT_DIR$/src/fetch.js" />
-      <change beforePath="$PROJECT_DIR$/src/helpers.js" afterPath="$PROJECT_DIR$/src/helpers.js" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
-      <change beforePath="$PROJECT_DIR$/src/xhr.js" afterPath="$PROJECT_DIR$/src/xhr.js" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" afterPath="$PROJECT_DIR$/webpack.config.js" />
+      <change beforePath="$PROJECT_DIR$/example/example.test.js" afterPath="$PROJECT_DIR$/example/example-axios.test.js" />
+      <change beforePath="$PROJECT_DIR$/example/example/example.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/example/example/example.js.map" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -50,11 +30,45 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="example-fetch.test.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/example/example-fetch.test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="example-axios.test.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example/example-axios.test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="43">
+              <caret line="16" column="44" lean-forward="false" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+              <folding>
+                <element signature="e#30#79#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="xhr-axios.test.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/xhr-axios.test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="28" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -149,11 +163,12 @@
         <option value="$PROJECT_DIR$/.eslintrc.js" />
         <option value="$PROJECT_DIR$/src/fetch.js" />
         <option value="$PROJECT_DIR$/readme.md" />
-        <option value="$PROJECT_DIR$/example/example.test.js" />
         <option value="$PROJECT_DIR$/example/package.json" />
         <option value="$PROJECT_DIR$/example/jest.config.js" />
         <option value="$PROJECT_DIR$/jest.config.js" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/example/example-axios.test.js" />
+        <option value="$PROJECT_DIR$/example/example.test.js" />
       </list>
     </option>
   </component>
@@ -198,6 +213,16 @@
               <item name="fake-server" type="b2602c69:ProjectViewProjectNode" />
               <item name="fake-server" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="fake-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fake-server" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fake-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fake-server" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -225,6 +250,7 @@
       <recent name="$PROJECT_DIR$/webroot" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/example" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/examples" />
       <recent name="$PROJECT_DIR$/test" />
@@ -331,7 +357,7 @@
       <workItem from="1521671701041" duration="1658000" />
       <workItem from="1521755671730" duration="9993000" />
       <workItem from="1521816153336" duration="5608000" />
-      <workItem from="1521841266707" duration="5566000" />
+      <workItem from="1521841266707" duration="5802000" />
     </task>
     <servers />
   </component>
@@ -368,7 +394,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22825000" />
+    <option name="totallyTimeSpent" value="23061000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="102" y="23" width="1485" height="924" extended-state="0" />
@@ -456,16 +482,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/fetch.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding>
-            <element signature="e#30#82#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -499,7 +515,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webroot/index.html" />
-    <entry file="file://$PROJECT_DIR$/example/example.test.js">
+    <entry file="file://$PROJECT_DIR$/example/example-fetch.test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
@@ -601,17 +617,6 @@
         <state relative-caret-position="15">
           <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/xhr-axios.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#30#56#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -771,16 +776,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example/example.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="2" lean-forward="false" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -866,6 +861,34 @@
         <state relative-caret-position="75">
           <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/xhr-axios.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="28" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/example-axios.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="16" column="44" lean-forward="false" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+          <folding>
+            <element signature="e#30#79#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/example-fetch.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

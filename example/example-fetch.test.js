@@ -13,7 +13,7 @@ afterEach(() => {
   fakeServer.clear();
 });
 
-test('ApiService work as expected', () => {
+test('ApiService work as expected with fetch', () => {
   fakeServer.set({
     /*
     Running the call will return 100 placeholder posts from jsonplaceholder.typicode.com,

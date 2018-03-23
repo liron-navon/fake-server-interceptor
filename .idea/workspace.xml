@@ -45,21 +45,24 @@
         <entry file="file://$PROJECT_DIR$/readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="241">
-                <caret line="49" column="33" lean-forward="false" selection-start-line="49" selection-start-column="33" selection-end-line="49" selection-end-column="33" />
+              <first_editor relative-caret-position="68">
+                <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
                 <folding>
-                  <marker date="1521818579784" expanded="true" signature="152:218" ph="//..." />
-                  <marker date="1521818579784" expanded="true" signature="236:292" ph="{...}" />
-                  <marker date="1521818579784" expanded="true" signature="312:362" ph="{...}" />
-                  <marker date="1521818579784" expanded="true" signature="405:1100" ph="{...}" />
-                  <marker date="1521818579784" expanded="true" signature="424:426" ph="{&quot;method&quot;: 'GET'...}" />
-                  <marker date="1521818579784" expanded="true" signature="424:644" ph="{&quot;method&quot;: 'GET'...}" />
-                  <marker date="1521818579784" expanded="true" signature="424:879" ph="{&quot;method&quot;: 'GET'...}" />
-                  <marker date="1521818579784" expanded="true" signature="424:882" ph="{...}" />
-                  <marker date="1521818579784" expanded="true" signature="431:588" ph="/*...*/" />
-                  <marker date="1521818579784" expanded="true" signature="650:652" ph="/**...*/" />
-                  <marker date="1521818579784" expanded="true" signature="650:843" ph="/*...*/" />
-                  <marker date="1521818579784" expanded="true" signature="1016:1097" ph="{...}" />
+                  <marker date="1521818820433" expanded="true" signature="152:346" ph="//..." />
+                  <marker date="1521818820433" expanded="true" signature="213:278" ph="{...}" />
+                  <marker date="1521818820433" expanded="true" signature="231:276" ph="{...}" />
+                  <marker date="1521818820433" expanded="true" signature="280:346" ph="//..." />
+                  <marker date="1521818820433" expanded="true" signature="364:420" ph="{...}" />
+                  <marker date="1521818820433" expanded="true" signature="440:490" ph="{...}" />
+                  <marker date="1521818820433" expanded="true" signature="536:1240" ph="{...}" />
+                  <marker date="1521818820433" expanded="true" signature="555:557" ph="{&quot;method&quot;: 'GET'...}" />
+                  <marker date="1521818820433" expanded="true" signature="555:775" ph="{&quot;method&quot;: 'GET'...}" />
+                  <marker date="1521818820433" expanded="true" signature="555:1010" ph="{&quot;method&quot;: 'GET'...}" />
+                  <marker date="1521818820433" expanded="true" signature="555:1013" ph="{...}" />
+                  <marker date="1521818820433" expanded="true" signature="562:719" ph="/*...*/" />
+                  <marker date="1521818820433" expanded="true" signature="781:783" ph="/**...*/" />
+                  <marker date="1521818820433" expanded="true" signature="781:974" ph="/*...*/" />
+                  <marker date="1521818820433" expanded="true" signature="1156:1237" ph="{...}" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -366,7 +369,7 @@
       <updated>1521671699638</updated>
       <workItem from="1521671701041" duration="1658000" />
       <workItem from="1521755671730" duration="9993000" />
-      <workItem from="1521816153336" duration="2288000" />
+      <workItem from="1521816153336" duration="2538000" />
     </task>
     <servers />
   </component>
@@ -403,7 +406,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13939000" />
+    <option name="totallyTimeSpent" value="14189000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="28" y="50" width="1469" height="868" extended-state="0" />
@@ -580,18 +583,21 @@
           <first_editor relative-caret-position="15">
             <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
             <folding>
-              <marker date="1521818579784" expanded="true" signature="152:218" ph="//..." />
-              <marker date="1521818579784" expanded="true" signature="236:292" ph="{...}" />
-              <marker date="1521818579784" expanded="true" signature="312:362" ph="{...}" />
-              <marker date="1521818579784" expanded="true" signature="405:1100" ph="{...}" />
-              <marker date="1521818579784" expanded="true" signature="424:426" ph="{&quot;method&quot;: 'GET'...}" />
-              <marker date="1521818579784" expanded="true" signature="424:644" ph="{&quot;method&quot;: 'GET'...}" />
-              <marker date="1521818579784" expanded="true" signature="424:879" ph="{&quot;method&quot;: 'GET'...}" />
-              <marker date="1521818579784" expanded="true" signature="424:882" ph="{...}" />
-              <marker date="1521818579784" expanded="true" signature="431:588" ph="/*...*/" />
-              <marker date="1521818579784" expanded="true" signature="650:652" ph="/**...*/" />
-              <marker date="1521818579784" expanded="true" signature="650:843" ph="/*...*/" />
-              <marker date="1521818579784" expanded="true" signature="1016:1097" ph="{...}" />
+              <marker date="1521818820433" expanded="true" signature="152:346" ph="//..." />
+              <marker date="1521818820433" expanded="true" signature="213:278" ph="{...}" />
+              <marker date="1521818820433" expanded="true" signature="231:276" ph="{...}" />
+              <marker date="1521818820433" expanded="true" signature="280:346" ph="//..." />
+              <marker date="1521818820433" expanded="true" signature="364:420" ph="{...}" />
+              <marker date="1521818820433" expanded="true" signature="440:490" ph="{...}" />
+              <marker date="1521818820433" expanded="true" signature="536:1240" ph="{...}" />
+              <marker date="1521818820433" expanded="true" signature="555:557" ph="{&quot;method&quot;: 'GET'...}" />
+              <marker date="1521818820433" expanded="true" signature="555:775" ph="{&quot;method&quot;: 'GET'...}" />
+              <marker date="1521818820433" expanded="true" signature="555:1010" ph="{&quot;method&quot;: 'GET'...}" />
+              <marker date="1521818820433" expanded="true" signature="555:1013" ph="{...}" />
+              <marker date="1521818820433" expanded="true" signature="562:719" ph="/*...*/" />
+              <marker date="1521818820433" expanded="true" signature="781:783" ph="/**...*/" />
+              <marker date="1521818820433" expanded="true" signature="781:974" ph="/*...*/" />
+              <marker date="1521818820433" expanded="true" signature="1156:1237" ph="{...}" />
             </folding>
           </first_editor>
           <second_editor />
@@ -865,21 +871,24 @@
     <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="241">
-            <caret line="49" column="33" lean-forward="false" selection-start-line="49" selection-start-column="33" selection-end-line="49" selection-end-column="33" />
+          <first_editor relative-caret-position="68">
+            <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
             <folding>
-              <marker date="1521818579784" expanded="true" signature="152:218" ph="//..." />
-              <marker date="1521818579784" expanded="true" signature="236:292" ph="{...}" />
-              <marker date="1521818579784" expanded="true" signature="312:362" ph="{...}" />
-              <marker date="1521818579784" expanded="true" signature="405:1100" ph="{...}" />
-              <marker date="1521818579784" expanded="true" signature="424:426" ph="{&quot;method&quot;: 'GET'...}" />
-              <marker date="1521818579784" expanded="true" signature="424:644" ph="{&quot;method&quot;: 'GET'...}" />
-              <marker date="1521818579784" expanded="true" signature="424:879" ph="{&quot;method&quot;: 'GET'...}" />
-              <marker date="1521818579784" expanded="true" signature="424:882" ph="{...}" />
-              <marker date="1521818579784" expanded="true" signature="431:588" ph="/*...*/" />
-              <marker date="1521818579784" expanded="true" signature="650:652" ph="/**...*/" />
-              <marker date="1521818579784" expanded="true" signature="650:843" ph="/*...*/" />
-              <marker date="1521818579784" expanded="true" signature="1016:1097" ph="{...}" />
+              <marker date="1521818820433" expanded="true" signature="152:346" ph="//..." />
+              <marker date="1521818820433" expanded="true" signature="213:278" ph="{...}" />
+              <marker date="1521818820433" expanded="true" signature="231:276" ph="{...}" />
+              <marker date="1521818820433" expanded="true" signature="280:346" ph="//..." />
+              <marker date="1521818820433" expanded="true" signature="364:420" ph="{...}" />
+              <marker date="1521818820433" expanded="true" signature="440:490" ph="{...}" />
+              <marker date="1521818820433" expanded="true" signature="536:1240" ph="{...}" />
+              <marker date="1521818820433" expanded="true" signature="555:557" ph="{&quot;method&quot;: 'GET'...}" />
+              <marker date="1521818820433" expanded="true" signature="555:775" ph="{&quot;method&quot;: 'GET'...}" />
+              <marker date="1521818820433" expanded="true" signature="555:1010" ph="{&quot;method&quot;: 'GET'...}" />
+              <marker date="1521818820433" expanded="true" signature="555:1013" ph="{...}" />
+              <marker date="1521818820433" expanded="true" signature="562:719" ph="/*...*/" />
+              <marker date="1521818820433" expanded="true" signature="781:783" ph="/**...*/" />
+              <marker date="1521818820433" expanded="true" signature="781:974" ph="/*...*/" />
+              <marker date="1521818820433" expanded="true" signature="1156:1237" ph="{...}" />
             </folding>
           </first_editor>
           <second_editor />

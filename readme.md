@@ -2,19 +2,27 @@
 
 A testing utility to test http calls, it will override fetch and XMLHttpRequest with specified test values for each call:
 
+First we create some http abstruction
 ```javascript
-// This example uses jest as the assertion library and test runner
-beforeEach(() => {
-  // initialize the test server
-  fakeServer.init();
-});
+const ApiService = {
+  get: (url) => {
+    return fetch(url, {method: 'get' })
+  }
+}
+```
 
+Then, we want to test our abstraction.
+This example uses jest as the assertion library and test runner
+```javascript  
+// initialize the test server, no need to call this more then once
+fakeServer.init();
+  
 afterEach(() => {
   // clear the test data
   fakeServer.clear();
 });
-
-test('city database has Vienna', () => {
+  
+test('ApiService work as expected', () => {
   fakeServer.set({
      /*
      Running the call will return 100 placeholder posts from jsonplaceholder.typicode.com, 
@@ -27,9 +35,9 @@ test('city database has Vienna', () => {
      */
      response: { hello: 'world' },
   })
-  
+    
   // call the same url with the same method we set
-  fetch('https://jsonplaceholder.typicode.com/posts')
+  ApiService.get('https://jsonplaceholder.typicode.com/posts')
     .then((response) => {
       const json = response.json()
       console.log(json.hello) // world

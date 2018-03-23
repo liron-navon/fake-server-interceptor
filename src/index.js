@@ -7,6 +7,6 @@ export default {
     setupXhrFakeServer();
     setupFetchFakeServer();
   },
-  createNewTestValue,
-  clearTestValues,
+  set: createNewTestValue,
+  clear: clearTestValues,
 };

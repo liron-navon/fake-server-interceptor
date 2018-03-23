@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0c818c51-6c8f-4f52-b6f3-2922ddeb0263" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/readme.md" afterPath="$PROJECT_DIR$/readme.md" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -41,28 +41,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="readme.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="readme.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="68">
-                <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+              <first_editor relative-caret-position="211">
+                <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
                 <folding>
-                  <marker date="1521818820433" expanded="true" signature="152:346" ph="//..." />
-                  <marker date="1521818820433" expanded="true" signature="213:278" ph="{...}" />
-                  <marker date="1521818820433" expanded="true" signature="231:276" ph="{...}" />
-                  <marker date="1521818820433" expanded="true" signature="280:346" ph="//..." />
-                  <marker date="1521818820433" expanded="true" signature="364:420" ph="{...}" />
-                  <marker date="1521818820433" expanded="true" signature="440:490" ph="{...}" />
-                  <marker date="1521818820433" expanded="true" signature="536:1240" ph="{...}" />
-                  <marker date="1521818820433" expanded="true" signature="555:557" ph="{&quot;method&quot;: 'GET'...}" />
-                  <marker date="1521818820433" expanded="true" signature="555:775" ph="{&quot;method&quot;: 'GET'...}" />
-                  <marker date="1521818820433" expanded="true" signature="555:1010" ph="{&quot;method&quot;: 'GET'...}" />
-                  <marker date="1521818820433" expanded="true" signature="555:1013" ph="{...}" />
-                  <marker date="1521818820433" expanded="true" signature="562:719" ph="/*...*/" />
-                  <marker date="1521818820433" expanded="true" signature="781:783" ph="/**...*/" />
-                  <marker date="1521818820433" expanded="true" signature="781:974" ph="/*...*/" />
-                  <marker date="1521818820433" expanded="true" signature="1156:1237" ph="{...}" />
+                  <marker date="1521819048619" expanded="true" signature="209:274" ph="{...}" />
+                  <marker date="1521819048619" expanded="true" signature="227:272" ph="{...}" />
+                  <marker date="1521819048619" expanded="true" signature="504:554" ph="{...}" />
+                  <marker date="1521819048619" expanded="true" signature="602:1308" ph="{...}" />
+                  <marker date="1521819048619" expanded="true" signature="621:623" ph="{&quot;method&quot;: 'GET'...}" />
+                  <marker date="1521819048619" expanded="true" signature="621:841" ph="{&quot;method&quot;: 'GET'...}" />
+                  <marker date="1521819048619" expanded="true" signature="621:1076" ph="{&quot;method&quot;: 'GET'...}" />
+                  <marker date="1521819048619" expanded="true" signature="621:1079" ph="{...}" />
+                  <marker date="1521819048619" expanded="true" signature="628:785" ph="/*...*/" />
+                  <marker date="1521819048619" expanded="true" signature="847:849" ph="/**...*/" />
+                  <marker date="1521819048619" expanded="true" signature="847:1040" ph="/*...*/" />
+                  <marker date="1521819048619" expanded="true" signature="1224:1305" ph="{...}" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -115,11 +112,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="5" />
+            <state relative-caret-position="240">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding>
                 <element signature="e#0#69#0" expanded="true" />
               </folding>
@@ -196,9 +193,9 @@
         <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/LICENCE" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/helpers.js" />
         <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/src/index.js" />
       </list>
     </option>
   </component>
@@ -369,7 +366,7 @@
       <updated>1521671699638</updated>
       <workItem from="1521671701041" duration="1658000" />
       <workItem from="1521755671730" duration="9993000" />
-      <workItem from="1521816153336" duration="2538000" />
+      <workItem from="1521816153336" duration="3013000" />
     </task>
     <servers />
   </component>
@@ -406,7 +403,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14189000" />
+    <option name="totallyTimeSpent" value="14664000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="28" y="50" width="1469" height="868" extended-state="0" />
@@ -583,21 +580,18 @@
           <first_editor relative-caret-position="15">
             <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
             <folding>
-              <marker date="1521818820433" expanded="true" signature="152:346" ph="//..." />
-              <marker date="1521818820433" expanded="true" signature="213:278" ph="{...}" />
-              <marker date="1521818820433" expanded="true" signature="231:276" ph="{...}" />
-              <marker date="1521818820433" expanded="true" signature="280:346" ph="//..." />
-              <marker date="1521818820433" expanded="true" signature="364:420" ph="{...}" />
-              <marker date="1521818820433" expanded="true" signature="440:490" ph="{...}" />
-              <marker date="1521818820433" expanded="true" signature="536:1240" ph="{...}" />
-              <marker date="1521818820433" expanded="true" signature="555:557" ph="{&quot;method&quot;: 'GET'...}" />
-              <marker date="1521818820433" expanded="true" signature="555:775" ph="{&quot;method&quot;: 'GET'...}" />
-              <marker date="1521818820433" expanded="true" signature="555:1010" ph="{&quot;method&quot;: 'GET'...}" />
-              <marker date="1521818820433" expanded="true" signature="555:1013" ph="{...}" />
-              <marker date="1521818820433" expanded="true" signature="562:719" ph="/*...*/" />
-              <marker date="1521818820433" expanded="true" signature="781:783" ph="/**...*/" />
-              <marker date="1521818820433" expanded="true" signature="781:974" ph="/*...*/" />
-              <marker date="1521818820433" expanded="true" signature="1156:1237" ph="{...}" />
+              <marker date="1521819048619" expanded="true" signature="209:274" ph="{...}" />
+              <marker date="1521819048619" expanded="true" signature="227:272" ph="{...}" />
+              <marker date="1521819048619" expanded="true" signature="504:554" ph="{...}" />
+              <marker date="1521819048619" expanded="true" signature="602:1308" ph="{...}" />
+              <marker date="1521819048619" expanded="true" signature="621:623" ph="{&quot;method&quot;: 'GET'...}" />
+              <marker date="1521819048619" expanded="true" signature="621:841" ph="{&quot;method&quot;: 'GET'...}" />
+              <marker date="1521819048619" expanded="true" signature="621:1076" ph="{&quot;method&quot;: 'GET'...}" />
+              <marker date="1521819048619" expanded="true" signature="621:1079" ph="{...}" />
+              <marker date="1521819048619" expanded="true" signature="628:785" ph="/*...*/" />
+              <marker date="1521819048619" expanded="true" signature="847:849" ph="/**...*/" />
+              <marker date="1521819048619" expanded="true" signature="847:1040" ph="/*...*/" />
+              <marker date="1521819048619" expanded="true" signature="1224:1305" ph="{...}" />
             </folding>
           </first_editor>
           <second_editor />
@@ -811,16 +805,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#69#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/xhr.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="369">
@@ -871,27 +855,34 @@
     <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="68">
-            <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <first_editor relative-caret-position="211">
+            <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
             <folding>
-              <marker date="1521818820433" expanded="true" signature="152:346" ph="//..." />
-              <marker date="1521818820433" expanded="true" signature="213:278" ph="{...}" />
-              <marker date="1521818820433" expanded="true" signature="231:276" ph="{...}" />
-              <marker date="1521818820433" expanded="true" signature="280:346" ph="//..." />
-              <marker date="1521818820433" expanded="true" signature="364:420" ph="{...}" />
-              <marker date="1521818820433" expanded="true" signature="440:490" ph="{...}" />
-              <marker date="1521818820433" expanded="true" signature="536:1240" ph="{...}" />
-              <marker date="1521818820433" expanded="true" signature="555:557" ph="{&quot;method&quot;: 'GET'...}" />
-              <marker date="1521818820433" expanded="true" signature="555:775" ph="{&quot;method&quot;: 'GET'...}" />
-              <marker date="1521818820433" expanded="true" signature="555:1010" ph="{&quot;method&quot;: 'GET'...}" />
-              <marker date="1521818820433" expanded="true" signature="555:1013" ph="{...}" />
-              <marker date="1521818820433" expanded="true" signature="562:719" ph="/*...*/" />
-              <marker date="1521818820433" expanded="true" signature="781:783" ph="/**...*/" />
-              <marker date="1521818820433" expanded="true" signature="781:974" ph="/*...*/" />
-              <marker date="1521818820433" expanded="true" signature="1156:1237" ph="{...}" />
+              <marker date="1521819048619" expanded="true" signature="209:274" ph="{...}" />
+              <marker date="1521819048619" expanded="true" signature="227:272" ph="{...}" />
+              <marker date="1521819048619" expanded="true" signature="504:554" ph="{...}" />
+              <marker date="1521819048619" expanded="true" signature="602:1308" ph="{...}" />
+              <marker date="1521819048619" expanded="true" signature="621:623" ph="{&quot;method&quot;: 'GET'...}" />
+              <marker date="1521819048619" expanded="true" signature="621:841" ph="{&quot;method&quot;: 'GET'...}" />
+              <marker date="1521819048619" expanded="true" signature="621:1076" ph="{&quot;method&quot;: 'GET'...}" />
+              <marker date="1521819048619" expanded="true" signature="621:1079" ph="{...}" />
+              <marker date="1521819048619" expanded="true" signature="628:785" ph="/*...*/" />
+              <marker date="1521819048619" expanded="true" signature="847:849" ph="/**...*/" />
+              <marker date="1521819048619" expanded="true" signature="847:1040" ph="/*...*/" />
+              <marker date="1521819048619" expanded="true" signature="1224:1305" ph="{...}" />
             </folding>
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#69#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,6 +1,6 @@
 {
   "name": "fake-server-interceptor",
-  "version": "0.1.4",
+  "version": "0.1.41",
   "description": "A fake server for testing",
   "license": "MIT",
   "main": "lib/fake-server-interceptor.min.js",
